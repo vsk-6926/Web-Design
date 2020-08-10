@@ -121,7 +121,7 @@ ul li a.c{
     left: -2px;
     right: -2px;
     bottom: -2px;
-    background: url(unsplash4.jpg);
+    background: url(unsplash3.jpg);
     background-size: cover;
     background-position: center;
     transform: skew(2deg,2deg);
@@ -188,8 +188,9 @@ ul li a.c{
     left: -2px;
     right: -2px;
     bottom: -2px;
-    background: #1b2d40;
+    background: url(unsplash11.jpg);
     background-size: cover;
+    background-position: center;
     transform: skew(2deg,2deg);
     z-index: -1;   
 }
@@ -238,7 +239,7 @@ ul li a.c{
 .gaming p{
     margin: 0;
     padding: 0;
-    color: #5d02ff;
+    color: #fff;
 }
 
 .gaming:before{
@@ -248,8 +249,9 @@ ul li a.c{
     left: -2px;
     right: -2px;
     bottom: -2px;
-    background: #1b2d40;
+    background: url(unsplash16.jpg);
     background-size: cover;
+    background-position: center;
     transform: skew(2deg,2deg);
     z-index: -1;   
 }
@@ -257,7 +259,7 @@ ul li a.c{
 .gaming h1{
     font-family: cursive;
     font-size: 35px;
-    color: #5d02ff;
+    color: #fff;
     position: static;
     margin: 0 5px;
     padding: 0 19px;
@@ -308,8 +310,9 @@ ul li a.c{
     left: -2px;
     right: -2px;
     bottom: -2px;
-    background: #1b2d40;
+    background: url(unsplash5.jpg);
     background-size: cover;
+    background-position: center;
     transform: skew(2deg,2deg);
     z-index: -1;   
 }
@@ -415,8 +418,9 @@ ul li a.c{
     left: -2px;
     right: -2px;
     bottom: -2px;
-    background: url(Valorant/Valorant\ 8.jpg);
+    background: url(unsplash17.jpg);
     background-size: cover;
+    background-position: center;
     transform: skew(2deg,2deg);
     z-index: -1;
 }
@@ -428,7 +432,7 @@ ul li a.c{
 
 .form h2{
     width: 100%;
-    color: #45f3ff;
+    color: #fff;
     font-size: 36px;
     text-align: center;
     margin-bottom: 15px;
@@ -454,7 +458,7 @@ ul li a.c{
     position: relative;
     width: 100%;
     height: 40px;
-    color: #45f3ff;
+    color: #fff;
 }
 
 .form .row .inputbox input,
@@ -497,7 +501,7 @@ ul li a.c{
     display: block;
     width: 90%;
     height: 2px;
-    background: #45f3ff;
+    background: #fff;
     transition: 0.5s;
     border-radius: 2px;
     pointer-events: none;
@@ -547,7 +551,7 @@ input[type="submit"]{
 
 input[type="submit"]:hover{
     color: #000;
-    background: #45f3ff;
-    box-shadow: 0 0 10px #45f3ff,0 0 40px #45f3ff, 0 0 80px #45f3ff;
-    mix-blend-mode: none;
+    background: #fff;
+    box-shadow: 0 0 10px #fff,0 0 40px #fff, 0 0 80px #fff;
+    mix-blend-mode: overlay;
 }
