@@ -1,0 +1,89 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 95%;
+    background: url(unsplash9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.btn{
+    position: relative;
+    margin: 0.7em;
+    padding: 0.8em;
+    z-index: 1;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+    letter-spacing: 3px;
+    padding: 200px 0 50px;
+    color: #df7620;
+    text-align: center;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+.social a{
+    display: flex;
+    background: #e3edf7;
+    height: 75px;
+    width: 75px;
+    margin: 0 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgb(223, 118, 32 ,0.7);
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: transform 0.5s;
+}
+
+.social a i{
+    font-size: 35px;
+    color: #777;
+    transition: transform 0.5s;
+}
+
+.social a:hover{
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset -4px -4px 6px -1px rgb(223, 118, 32,0.7),
+                -0.5px -0.5px 0px rgb(223, 118, 32 ,1),
+                0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+                0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+
+    border: 1px solid rgba(0, 0, 0, 0.01);
+    transform: translateY(1px);
+}
+
+a:hover i{
+    transform: scale(0.95);
+}
+
+a:hover .fa-facebook{
+    color: #3b5998;
+}
+
+a:hover .fa-twitter{
+    color: #00acee;
+}
+
+a:hover .fa-whatsapp{
+    color: #4fce5d;
+}
+
+a:hover .fa-instagram{
+    color: #ce1e67;
+}
+
+a:hover .fa-youtube{
+    color: #f00;
+}

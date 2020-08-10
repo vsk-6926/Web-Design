@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styling.css">
+        <title>CaptainsPlay</title>
+    </head>
+    <body>
+
+        <div class="btn">
+            <button type="button"><i class="icon"><img src="menu1.png"></i></button>
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="" class="h">Home</a></li>
+                <li><a href="about.html" class="a">About</a></li>
+                <li><a href="buyingguide.html" class="b">Buying Guide</a></li>
+                <li><a href="gaming.html" class="g">Gaming</a></li>
+                <li><a href="contact.html" class="c">Contact</a></li>
+            </ul>
+        </nav>
+           
+        <div class="rellax logo" data-rellax-speed="1"></div>
+        <div class="whitespace"></div>
+        
+        <section class="rellax about" data-rellax-speed="5" >
+            <h1>About</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry......</p>
+            <a href="about.html">Read More</a>
+        </section>
+
+        <div id="progressbar"></div>
+            <div id="scrollpath"></div>
+
+        <section class="rellax update" data-rellax-speed="11">
+            <h1>Buying Guide</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.......</p>
+            <a href="buyingguide.html">Read More</a>
+        </section>
+
+        <section class="rellax gaming" data-rellax-speed="16">
+            <h1>Gaming</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.......</p>
+            <a href="gaming.html">Read More</a>
+        </section>
+
+        <div class="rellax formbody" data-rellax-speed="11">
+            <div class="form">
+                <h2>Be With Us</h2>
+                <div class="row">
+                    <div class="col">
+                        <div class="inputbox">
+                            <input type="text" name="" required="required">
+                            <span class="text">First Name</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="inputbox">
+                            <input type="text" name="" required="required">
+                            <span class="text">Last Name</span>
+                            <span class="line"></span> 
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="inputbox">
+                            <input type="text" name="" required="required">
+                            <span class="text">E-mail</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="inputbox">
+                            <input type="text" name="" required="required">
+                            <span class="text">Mobile</span>
+                            <span class="line"></span> 
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div clss="col">
+                        <div class="inputbox textarea">
+                           <textarea required="required"></textarea>
+                            <span class="text">Type Your Message.....</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input type="submit" value="Send">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       <section class="rellax contact" data-rellax-speed="27">
+           <h1>Contact</h1>
+           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.......</p>
+           <a href="contact.html">Read More</a>
+       </section>
+
+        <!--For Parallex Effect-->
+        <script src="rellax.min.js"></script>
+        <script type="text/javascript">
+            var rellax = new Rellax('.rellax');
+        </script>
+
+         <!--jQuery-->
+         <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+         <script src="menu.js"></script>
+
+         <!--Scroll Bar-->
+         <script type="text/javascript">
+            let progress = document.getElementById('progressbar');
+            let totalHeight = document.body.scrollHeight - window.innerHeight;
+            window.onscroll = function(){
+                let progressHeight = (window.pageYOffset / totalHeight) * 100;
+                progress.style.height = progressHeight + "%";
+            }
+        </script>
+
+    </body>
+</html>
